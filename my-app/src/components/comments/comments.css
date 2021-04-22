@@ -1,0 +1,61 @@
+.author-comment{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    background-color: rgb(138, 105, 105) ;
+    border: 1px solid rgb(138, 105, 105);
+    border-radius: 10px;
+    margin: 25px 25px 0px 25px;
+}
+.specificPost{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin: 25px auto;
+    width: 50%;
+    background-color:rgb(175, 152, 152) ;
+    border: 1px solid rgb(175, 152, 152);
+    border-radius: 5px;
+    padding: 20px 15px;
+
+}
+
+.name-comment{
+    color: rgb(32, 32, 32);
+    font-size: 16px;
+    padding: 0px 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.email{
+    opacity: 60%;
+    color: rgb(226, 216, 216);
+    font-size: 16px;
+}
+.comment-body{
+    width: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style :normal;
+    background-color: rgba(151, 161, 163, 0.692) ;
+    border: 1px solid rgba(151, 161, 163, 0.692);
+    border-radius: 10px;
+    margin: 0px 25px;
+    padding: 15px 15px;
+}
+
+ .buttons-comment{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 25px;
+}
+.edit-delete-button{
+    background-color: rgba(138, 105, 105, 0.836); 
+    border: none;
+    color: white;
+    padding: 0px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    height: 20px;border: 1px solid rgba(138, 105, 105, 0.774);
+    border-radius: 5px;
+    
+}

@@ -1,0 +1,107 @@
+.post-container{
+    display: flex;
+    flex-direction: row;
+    padding: 1px 10px;
+    width: 80%;
+    margin: 5px auto;
+   
+}
+.name-post{
+    color: rgb(32, 32, 32);
+    font-size: 22px;
+    padding: 0px 10px;
+
+}
+
+.username-post{
+    opacity: 60%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.author{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin: 10px 15px 7px 150px;
+    padding-top: 10px;
+    width: 40%;
+    height: 35px;
+    background-color: rgba(71, 50, 70, 0.397);
+    border: 2px solid (71, 50, 70, 0.397);
+    border-radius: 20px;
+}
+
+.post{
+    background-color: rgb(192, 145, 145);
+    border: 2px solid (192, 145, 145, 0.397);
+    border-radius: 10px;
+    width: 80%;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.button-add-post{
+    background-color: #945584; 
+    border: none;
+    color: white;
+    padding: 0px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    height: 60px;
+}
+
+
+
+/*///////////////////////////////////////////*/
+.add-form{
+    margin: 0px auto;
+    width: 500px;
+    height: 550px;
+    background-color: rgb(197, 184, 186);
+    display: flex;
+    flex-direction: column;
+    overflow-y:scroll;
+}
+
+.input-button{
+    display: flex;
+    flex-direction: row;
+}
+.add-button {
+    background-color: #5a465a; 
+    border: none;
+    color: white;
+    margin: 0px 40px;
+    padding: 0px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+}
+.add-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input{
+    margin : 0 auto;
+    width: 100%;
+    padding: 10px 15px;
+    background: #cec8cf;
+    color: rgb(94, 69, 90);
+    border: 2px solid rgb(94, 69, 90);
+}
+
+
+
+  
+
+  
+
+  

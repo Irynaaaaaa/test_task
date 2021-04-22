@@ -1,0 +1,19 @@
+
+.person{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.name{
+    color: rgb(32, 32, 32);
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.username{
+    opacity: 60%;
+    color: rgb(65, 62, 62);
+    margin-top: 0px;
+}
